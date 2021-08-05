@@ -1,0 +1,168 @@
+{
+    // Prettier & eslint setup
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguage": [
+        "js"
+    ],
+    "editor.minimap.enabled": false,
+    // cursor
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "extensions.autoUpdate": true,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.statusBar.visible": true,
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.dragAndDrop": false,
+    "editor.fontSize": 21.5,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "none",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "cSpell.userWords": [
+        "Hassan",
+        "Nahid",
+        "a",
+        "alamin",
+        "awesome",
+        "baily",
+        "bfd",
+        "chay",
+        "d",
+        "ded",
+        "ea",
+        "ekhn",
+        "evenify",
+        "f",
+        "font",
+        "fontawesome",
+        "fortawesome",
+        "ghatail",
+        "ghurte",
+        "humburger",
+        "icon",
+        "miya",
+        "nahidhassanbulbul",
+        "name",
+        "nayok",
+        "nayoks",
+        "niya",
+        "nums",
+        "openweathermap",
+        "photoshop",
+        "preconnect",
+        "ronaldo",
+        "sakhipur",
+        "saown",
+        "tailwind",
+        "tailwindcss",
+        "tangail",
+        "tumake"
+    ],
+    "git.confirmSync": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    //   emmet & tab nine suggesttion
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.fontFamily": "FuraMono Nerd Font",
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    //   terminal setting
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        },
+        "Ubuntu (WSL) ": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        },
+        "Ubuntu (WSL)  ": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "C:\\\\Windows\\\\System32\\\\wsl.exe (migrated)": {
+            "path": "C:\\\\Windows\\\\System32\\\\wsl.exe",
+            "args": []
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "",
+    "workbench.productIconTheme": "bootstrap-product-icons",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.automationShell.linux": "",
+    "emmet.preferences": {},
+    "files.autoSave": "afterDelay",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Andromeda Italic Bordered"
+}
