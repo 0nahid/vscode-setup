@@ -37,6 +37,7 @@
   // cursor
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 2,
 
   // workbench
   "extensions.autoUpdate": true,
@@ -48,6 +49,15 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Andromeda Italic Bordered",
   "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#fbff00",
+    "terminalCursor.background": "#fbff00",
+    "terminalCursor.foreground": "#fbff00",
+    "[Andromeda Italic Bordered]": {
+      "editorCursor.background": "#ffff4d",
+      "editorCursor.foreground": "#ffff4d"
+    }
+  },
 
   // editor
   "editor.fontFamily": "Operator Mono",
@@ -59,6 +69,7 @@
   "editor.autoClosingOvertype": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingQuotes": "always",
+  "editor.snippetSuggestions": "top",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -87,11 +98,13 @@
     "bfd",
     "browserslist",
     "chay",
+    "collasible",
     "compat",
     "components",
     "craco",
     "d",
     "ded",
+    "dont",
     "ea",
     "ekhn",
     "ema",
@@ -109,12 +122,15 @@
     "john",
     "marginheight",
     "marginwidth",
+    "message",
     "miya",
     "ms",
     "nahidhassanbulbul",
     "name",
     "nayok",
     "nayoks",
+    "ndemy",
+    "new",
     "niya",
     "nums",
     "openweathermap",
@@ -124,12 +140,15 @@
     "ronaldo",
     "sakhipur",
     "saown",
+    "show",
     "start",
     "tailwind",
     "tailwindcss",
     "tangail",
     "tumake",
-    "utilities"
+    "utilities",
+    "version",
+    "vsicons"
   ],
   "git.confirmSync": false,
   "editor.suggestSelection": "first",
@@ -202,7 +221,6 @@
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "Operator Mono",
   "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.cursorSmoothCaretAnimation": true,
   "terminal.integrated.cursorWidth": 4,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.rightClickBehavior": "paste"
